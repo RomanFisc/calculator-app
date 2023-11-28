@@ -1,3 +1,105 @@
 body{
-    background-color: teal;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: darkgray;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+.screen{
+    border: 2px solid black;
+    background-color: lightgray;
+    border-radius: 4px;
+    height: 85px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.top-buttons{
+    display: flex;
+    align-items: row;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.clear{
+    background-color: darkseagreen;
+    border: 2px solid black;
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.row4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.delete{
+    background-color: plum;
+    border: 2px solid black;
+    padding: 5px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cbutton{
+    height: 75px;
+    width: 85px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
 }

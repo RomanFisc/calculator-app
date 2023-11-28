@@ -15,7 +15,7 @@ const multiply = function(...nums) {
 
 const divide = function(...nums) {
     return nums.reduce((acccumulator, currentNum) => acccumulator / currentNum);
-}
+};
 //console.log(divide(20, 2, 3));
 
 let num1;
@@ -32,8 +32,9 @@ const operate = function(num1, num2) {
     } else if (operator === '*') {
         return multiply(num1,num2);
     };
-}
+};
+//console.log(operate(4,5));
 
-console.log(operate(4,5));
+
 
 
