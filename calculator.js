@@ -6,5 +6,9 @@ const add = function(...nums) {
 const subtract = function(...nums) {
     return nums.reduce((acccumulator, currentNum) => acccumulator - currentNum);
 }
-
 //console.log(subtract(30, 20, 4));
+
+const multiply = function(...nums) {
+    return nums.reduce((acccumulator, currentNum) => acccumulator * currentNum);
+};
+//console.log(multiply(3,4,6));
