@@ -12,3 +12,9 @@ const multiply = function(...nums) {
     return nums.reduce((acccumulator, currentNum) => acccumulator * currentNum);
 };
 //console.log(multiply(3,4,6));
+
+const divide = function(...nums) {
+    return nums.reduce((acccumulator, currentNum) => acccumulator / currentNum);
+}
+//console.log(divide(20, 2, 3));
+
