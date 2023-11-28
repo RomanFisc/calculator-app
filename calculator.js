@@ -35,6 +35,15 @@ const operate = function(num1, num2) {
 };
 //console.log(operate(4,5));
 
+//creating function to populate screen
+$(document).ready(function(){
+    $('.cbutton').click(function(){
+        var content = $(this).text();
+        $('.screen').append(content);
+    });
+});
+
+
 
 
 

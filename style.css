@@ -31,6 +31,7 @@ body{
     align-items: flex-end;
     padding-right: 15px;
     padding-bottom: 15px;
+    color: black;
 }
 
 .top-buttons{
@@ -42,13 +43,31 @@ body{
 }
 
 .clear{
-    background-color: darkseagreen;
+    background-color: #8fbc8f ;
     border: 2px solid black;
     padding: 15px;
     width: 170px;
     font-size: 18px;
     border-radius: 5px;
 }
+
+.clear:Active{
+    background-color: #5D996D;
+}
+
+.delete{
+    background-color: plum;
+    border: 2px solid black;
+    padding: 5px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.delete:active{
+    background-color: #D07CC1;
+}
+
 
 .row1{
     display: flex;
@@ -86,15 +105,6 @@ body{
     padding-right: 1px;
 }
 
-.delete{
-    background-color: plum;
-    border: 2px solid black;
-    padding: 5px;
-    width: 170px;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
 .cbutton{
     height: 75px;
     width: 85px;
@@ -102,4 +112,8 @@ body{
     font-weight: 500;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.cbutton:active{
+    background-color: darkgrey;
 }

@@ -8,39 +8,41 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <div class="screen">123</div>
+            <div class="screen">
+            </div>
             <div class="top-buttons">
                 <button class='clear'>CLEAR</button>
                 <button class='delete'>DELETE</button>
             </div>
             <div class="number-buttons">
                 <div class="row1">
-                    <button class="cbutton">7</button>
-                    <button class="cbutton">8</button>
-                    <button class="cbutton">9</button>
-                    <button class="cbutton">÷</button>
+                    <button class="cbutton" data-link="button7">7</button>
+                    <button class="cbutton" data-link="button8">8</button>
+                    <button class="cbutton" data-link="button9">9</button>
+                    <button class="cbutton" data-link="button-plus">÷</button>
                 </div>
                 <div class="row2">
-                    <button class="cbutton">4</button>
-                    <button class="cbutton">5</button>
-                    <button class="cbutton">6</button>
-                    <button class="cbutton">x</button>
+                    <button class="cbutton" data-link="button4">4</button>
+                    <button class="cbutton" data-link="button5">5</button>
+                    <button class="cbutton" data-link="button6">6</button>
+                    <button class="cbutton" data-link="button-multiply">x</button>
                 </div>
                 <div class="row3">
-                    <button class="cbutton">1</button>
-                    <button class="cbutton">2</button>
-                    <button class="cbutton">3</button>
-                    <button class="cbutton">-</button>
+                    <button class="cbutton" data-link="button1">1</button>
+                    <button class="cbutton" data-link="button2">2</button>
+                    <button class="cbutton" data-link="button3">3</button>
+                    <button class="cbutton" data-link="button4">-</button>
                 </div>
                 <div class="row4">
-                    <button class="cbutton">.</button>
-                    <button class="cbutton">0</button>
-                    <button class="cbutton">=</button>
-                    <button class="cbutton">+</button>
+                    <button class="cbutton" data-link="button-decimal">.</button>
+                    <button class="cbutton" data-link="button0">0</button>
+                    <button class="cbutton" data-link="button-equal">=</button>
+                    <button class="cbutton" data-link="button-divide">+</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="calculator.js" type="text/javascript"></script>
 </body>
 </html>
