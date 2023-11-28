@@ -3,4 +3,8 @@ const add = function(...nums) {
 };
 //console.log(add(1,5,6,7,8,0));
 
+const subtract = function(...nums) {
+    return nums.reduce((acccumulator, currentNum) => acccumulator - currentNum);
+}
 
+//console.log(subtract(30, 20, 4));
