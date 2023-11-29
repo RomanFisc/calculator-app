@@ -175,3 +175,40 @@ button:focus, button:active {
     background-color: darkgrey;
 }
 
+@media screen and (max-width: 767px) {
+    .calculator{
+        width: 250px;
+        height: 400px;
+    }
+    
+    .screen{
+        width: 225px;
+        height: 100px;
+    }
+    
+    .top-buttons {
+        height: 40px;
+    }
+    .clear {
+        padding: 7px;
+        font-size: 18px;
+    }
+    .delete{
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    .cbutton{
+        height: 55px;
+    }
+
+    .operator{
+        height: 55px;
+    }
+    .decimal{
+        height: 55px;
+    }
+    .equal{
+        height: 55px;
+    }
+}
