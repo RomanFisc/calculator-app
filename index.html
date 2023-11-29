@@ -9,35 +9,37 @@
     <div class="container">
         <div class="calculator">
             <div class="screen">
+                <div class="previous-operand" data-previous-operand></div>
+                <div class="current-operand" data-current-operand></div>
             </div>
             <div class="top-buttons">
-                <button class='clear'>CLEAR</button>
-                <button class='delete'>DELETE</button>
+                <button class='clear' data-clear>CLEAR</button>
+                <button class='delete' data-delete>DELETE</button> 
             </div>
             <div class="number-buttons">
                 <div class="row1">
-                    <button class="cbutton" data-link="button7">7</button>
-                    <button class="cbutton" data-link="button8">8</button>
-                    <button class="cbutton" data-link="button9">9</button>
-                    <button class="cbutton" data-link="button-plus">÷</button>
+                    <button class="cbutton" data-number>7</button>
+                    <button class="cbutton" data-number="button8">8</button>
+                    <button class="cbutton" data-number="button9">9</button>
+                    <button class="operator" data-operation="÷">÷</button>
                 </div>
                 <div class="row2">
-                    <button class="cbutton" data-link="button4">4</button>
-                    <button class="cbutton" data-link="button5">5</button>
-                    <button class="cbutton" data-link="button6">6</button>
-                    <button class="cbutton" data-link="button-multiply">x</button>
+                    <button class="cbutton" data-number>4</button>
+                    <button class="cbutton" data-number>5</button>
+                    <button class="cbutton" data-number>6</button>
+                    <button class="operator" data-operation="*">x</button>
                 </div>
                 <div class="row3">
-                    <button class="cbutton" data-link="button1">1</button>
-                    <button class="cbutton" data-link="button2">2</button>
-                    <button class="cbutton" data-link="button3">3</button>
-                    <button class="cbutton" data-link="button4">-</button>
+                    <button class="cbutton" data-number>1</button>
+                    <button class="cbutton" data-number>2</button>
+                    <button class="cbutton" data-number>3</button>
+                    <button class="operator" data-operation="-">-</button>
                 </div>
                 <div class="row4">
-                    <button class="cbutton" data-link="button-decimal">.</button>
-                    <button class="cbutton" data-link="button0">0</button>
-                    <button class="cbutton" data-link="button-equal">=</button>
-                    <button class="cbutton" data-link="button-divide">+</button>
+                    <button class="decimal" data-number>.</button>
+                    <button class="cbutton" data-number>0</button>
+                    <button class="equal" data-equals>=</button>
+                    <button class="operator" data-operation="+">+</button>
                 </div>
             </div>
         </div>

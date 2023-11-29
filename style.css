@@ -25,14 +25,23 @@ body{
     background-color: lightgray;
     border-radius: 4px;
     height: 85px;
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 15px;
+    width: 325px;
+    font-size: 20px;
     padding-bottom: 15px;
-    color: black;
+    grid-column: 1 / -1;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
+.previous-operand {
+    color: rgba(0,0,0,0.65);
+    font-size: 15px;
+}
+
 
 .top-buttons{
     display: flex;
@@ -108,12 +117,53 @@ body{
 .cbutton{
     height: 75px;
     width: 85px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     border: 2px solid black;
     border-radius: 5px;
 }
 
+.operator {
+    height: 75px;
+    width: 85px;
+    font-size: 22px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.decimal{
+    height: 75px;
+    width: 85px;
+    font-size: 22px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.equal{
+    height: 75px;
+    width: 85px;
+    font-size: 22px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
 .cbutton:active{
     background-color: darkgrey;
 }
+
+.operator:active{
+    background-color: darkgrey;
+}
+
+.equal:active{
+    background-color: darkgrey;
+}
+
+.decimal:active{
+    background-color: darkgrey;
+}
+
