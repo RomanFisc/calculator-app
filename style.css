@@ -3,6 +3,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:focus{
+    outline: none;
+}
+
+button:focus, button:active {
+    outline: none;
+}
+
 .container{
     display: flex;
     justify-content: center;
